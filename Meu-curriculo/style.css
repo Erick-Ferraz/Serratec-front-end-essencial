@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Dosis;
+    color: #1e1e2a;
+    background-image: url(img/bg.jpg);
+}
+
+.hcontainer {
+
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    background-color: #6892e3;
+    background-image: url(img/fotoo2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+
+.header {
+    padding: 0 112px;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.socialmedia {
+    margin-top: 4rem;
+    padding: 0 112px;
+    display: flex;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    font-size: large;
+    color: #1e1e2a;
+    padding: 2rem 6rem;
+    border: 1px solid #1e1e2a;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+a:hover {
+    background-color: #ffffff;
+}
+
+.titulo {
+    padding-top: 0rem;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.main h1 {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.panel-body {
+    padding-right: 4rem;
+}
+
+.footer {
+    margin-top: 10rem;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
